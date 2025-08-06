@@ -84,10 +84,9 @@ src/main/java/com/fiap/tech_challenge
 ## 🧩 Variáveis de ambiente
 Renomei o arquivo “.env.example” para ".env" e preencha-o da seguinte maneira:
 ```
-DB_URI=jdbc:mysql://mysql-container:3306/db-usermanagement?useSSL=false&serverTimezone=UTC&allowPublicK
-eyRetrieval=true
-DB_USER= usuario_do_banco
-DB_PASSWORD= senha_do_banco
+DB_URI=jdbc:mysql://mysql-container:3306/db-user-management?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+DB_USER=usuario_do_banco
+DB_PASSWORD=senha_do_banco
 ```
 
 ## 💻 Como rodar o projeto
@@ -151,9 +150,9 @@ Para rodar os testes unitários, na raiz do projeto, execute o seguinte comando:
 
 O relatório de cobertura pode ser encontrado dentro da pasta `./target`. Para acessar o relatório web acesse:
 
-> taget/site/jacoco/index.html
+> target/site/jacoco-merged/index.html
 
-![image](https://github.com/MatheusBragaRibeiroFiap/tech-challenge/tree/v1.0.0/src/main/resources/assets/cobertura-testes.png)
+![Relatório Jacoco de cobertura de testes](./docs/relatorio-jacoco.png)
 
 
 ## 🧑‍💻 Autoria
